@@ -1,0 +1,136 @@
+body{
+    background-color: #aed8ea;
+    background-image: url(media/sea-1547609_1280.jpg) ;
+}
+
+
+#text {
+
+    background-image: url(media/GettyImages_482194715-56a1329e5f9b58b7d0bcf666.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+
+    
+    text-align: center; 
+    padding: 20px; 
+    background-color: #d8c0c0; 
+    border-radius: 10px; 
+    margin: 50px auto; 
+    max-width: 800px; 
+}
+
+#text h1 {
+    font-size: 30px; 
+    color: #ffcd03; 
+    margin-bottom: 10px; 
+}
+
+#text a {
+    display: inline-block; 
+    padding: 10px 20px; 
+    background-color: #ff690c; 
+    color: white; 
+    text-decoration: none; 
+    border-radius: 5px; 
+    margin-top: 10px; 
+}
+
+.main-header {
+    background-color: #46acd8;
+    background-image: url(media/header.png);
+    background-repeat: no-repeat;
+    color: rgb(232, 207, 207);
+    padding: 3vh;
+    text-align: center;
+    height: 4vh;
+    font-family: "Source Sans 3", sans-serif;
+    border-radius: 10px ;
+    font-optical-sizing: auto;
+    font-weight: 650;
+}
+
+.main-header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.main-header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    margin-right: 5vw;
+}
+
+.main-header nav ul li {
+    margin-left: 10px;
+}
+
+.main-header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 3vh;
+}
+
+nav ul li a:hover{
+    transform: scale(1.2);
+    font-size:1.5em;
+}
+
+
+#logo{
+    height: 28px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.header {
+    background-image: url('media/as.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 8vh;
+    text-align: center;
+    color: white;
+    position: relative;
+
+}
+
+.header img {
+    max-width: 100%;
+    height: auto;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 800px; /* Set a maximum width for the container */
+    margin: 50px auto; /* Center the container horizontally */
+    padding: 0 20px; /* Add some padding to the container */
+}
+
+.image-box {
+    width: 150px; /* Set a width for the image box */
+    height: 150px; /* Set a height for the image box */
+    background-color: white; /* Fill the box with white color */
+    border: 2px solid #ccc;
+    padding: 10px;
+    overflow: hidden; /* Ensure the image does not overflow the box */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box; /* Include padding and border in the box's total size */
+}
+
+.image-box img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover; /* Ensures the image covers the box dimensions while maintaining aspect ratio */
+}
+   
+.id{
+
+    width: 50vw;
+    height: 20vh;
+}
